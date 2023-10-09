@@ -77,7 +77,6 @@ public class HackatonSecretTest {
         driver.get("https://dusbez5zif8yv.cloudfront.net/fifth-page");
         LocalStorage localStorage = ((WebStorage) driver).getLocalStorage();
         localStorage.setItem("username", "BBB");
-        System.out.println("test");
     }
 
     private void enterNameInput(String name) {
